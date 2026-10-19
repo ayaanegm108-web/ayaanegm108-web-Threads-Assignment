@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\shared\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\shared\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\orderprocessing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\orderprocessing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Shared\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\Shared\\Models\\Enums.cs",
+              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Shared\\Models\\Enums.cs",
+              "RelativeToolTip": "OrderProcessing\\Shared\\Models\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T07:37:21.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderProcessing",
+              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\OrderProcessing.csproj",
+              "RelativeDocumentMoniker": "OrderProcessing\\OrderProcessing.csproj",
+              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\OrderProcessing.csproj",
+              "RelativeToolTip": "OrderProcessing\\OrderProcessing.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-19T07:34:26.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Program.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\Program.cs",
+              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Program.cs",
+              "RelativeToolTip": "OrderProcessing\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T07:17:54.611Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 14,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
