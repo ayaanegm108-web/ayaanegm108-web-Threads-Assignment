@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OrderProcessing.Shared.Models
 {
-    enum LoyaltyTier { Bronze, Silver, Gold }
-    enum OrderStatus { Pending, Validated, Rejected, PaymentFailed, Completed, Failed }
-    enum PaymentStatus { Captured, Declined, Refunded }
+    public enum LoyaltyTier { Bronze, Silver, Gold }
+    public enum OrderStatus { Pending, Validated, Rejected, PaymentFailed, Completed, Failed }
+    public enum PaymentStatus { Captured, Declined, Refunded }
 }
