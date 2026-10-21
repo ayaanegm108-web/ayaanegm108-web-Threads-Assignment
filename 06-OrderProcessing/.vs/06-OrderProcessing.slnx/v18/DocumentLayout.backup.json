@@ -65,7 +65,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 189,
+          "DockedWidth": 179,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "OrderProcessing\\Program.cs",
               "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Program.cs",
               "RelativeToolTip": "OrderProcessing\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-19T07:17:54.611Z",
               "IsPinned": true,
@@ -100,8 +100,7 @@
               "RelativeToolTip": "OrderProcessing\\Shared\\Logging\\Log.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAkwBsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T07:17:43.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T07:17:43.923Z"
             },
             {
               "$type": "Document",
@@ -113,8 +112,7 @@
               "RelativeToolTip": "OrderProcessing\\Shared\\Storage\\DataSeeder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T07:02:12.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T07:02:12.411Z"
             },
             {
               "$type": "Document",
@@ -251,7 +249,7 @@
           ]
         },
         {
-          "DockedWidth": 34,
+          "DockedWidth": 44,
           "SelectedChildIndex": -1,
           "Children": [
             {
