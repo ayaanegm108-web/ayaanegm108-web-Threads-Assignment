@@ -4,11 +4,14 @@ using OrderProcessing.Shared.Logging;
 namespace OrderProcessing;
 
 using OrderProcessing.Phase1;
+using OrderProcessing.Shared.Storage;
 
 static class Program
 {
     static async Task Main(string[] args)
     {
+        var store = new JsonFileStore();
+        await DataSeeder.ResetAsync(store, CancellationToken.None);
         int? cancelAfterMs = ParseCancelAfter(args);
 
     
@@ -78,6 +81,7 @@ static class Program
 
         return cts.IsCancellationRequested;
     }
+    
 }
 
 //Console.WriteLine("Cause,I`m feeling Gooooooooood!!!!!");
