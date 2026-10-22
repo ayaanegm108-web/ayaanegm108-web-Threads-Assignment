@@ -39,5 +39,31 @@ namespace OrderProcessing.Phase1
             Log.Success($"OrderRepository -> {filtered.Count} orders with status {status}");
             return filtered;
         }
+        public async Task SaveAsync(Order order, CancellationToken ct)
+        {
+            Log.Info("OrderRepository -> Opening connection...");
+            await Task.Delay(200, ct);
+
+            Log.Info("OrderRepository -> Beginning transaction...");
+            await Task.Delay(100, ct);
+
+            Log.Info($"OrderRepository -> Saving Order #{order.Id}...");
+            await Task.Delay(400, ct);
+
+            // الكتابة الفعلية: بعد delay الـ Insert/Update وقبل الـ Commit
+            await _store.UpdateAsync<Order>(DataFiles.Orders, orders =>
+            {
+                int index = orders.FindIndex(o => o.Id == order.Id);
+                if (index >= 0)
+                    orders[index] = order;   // نفس الـ Id: استبدل
+                else
+                    orders.Add(order);       // جديد: ضيف
+            }, ct);
+
+            Log.Info("OrderRepository -> Committing...");
+            await Task.Delay(200, ct);
+
+            Log.Success($"OrderRepository -> Order #{order.Id} saved ({order.Status})");
+        }
     }
 }
