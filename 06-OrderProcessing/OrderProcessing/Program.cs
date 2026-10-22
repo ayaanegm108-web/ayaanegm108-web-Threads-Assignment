@@ -1,6 +1,9 @@
-﻿using OrderProcessing.Shared.Logging;
+﻿using OrderProcessing.Phase1;
+using OrderProcessing.Shared.Logging;
 
 namespace OrderProcessing;
+
+using OrderProcessing.Phase1;
 
 static class Program
 {
@@ -55,7 +58,7 @@ static class Program
 
             switch (name)
             {
-                case "phase1": /* await Phase1Runner.RunAsync(cts.Token); */ break;
+                case "phase1": await Phase1Runner.RunAsync(cts.Token); break;
                 case "phase2": /* await Phase2Runner.RunAsync(cts.Token); */ break;
                 case "phase3": /* await Phase3Runner.RunAsync(cts.Token); */ break;
                 case "phase4": /* await Phase4Runner.RunAsync(cts.Token); */ break;

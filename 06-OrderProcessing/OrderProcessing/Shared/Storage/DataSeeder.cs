@@ -87,8 +87,39 @@ namespace OrderProcessing.Shared.Storage
             MakeOrder(19, 9,  null,        (8, 1)),
             MakeOrder(20, 10, "FLASH20",   (1, 1), (6, 1)),
         };
+    
+
+    public static async Task ResetAsync(JsonFileStore store, CancellationToken ct)
+        {
+            
+            if (Directory.Exists(DataFiles.DataFolder))
+                Directory.Delete(DataFiles.DataFolder, recursive: true);
+
+            Directory.CreateDirectory(DataFiles.DataFolder);
+            Directory.CreateDirectory(DataFiles.InvoicesFolder);
+            Directory.CreateDirectory(DataFiles.ReportsFolder);
+
+           
+            await SeedFileAsync(store, DataFiles.Customers, GetCustomers(), ct);
+            await SeedFileAsync(store, DataFiles.Products, GetProducts(), ct);
+            await SeedFileAsync(store, DataFiles.Coupons, GetCoupons(), ct);
+            await SeedFileAsync(store, DataFiles.IncomingOrders, GetIncomingOrders(), ct);
+
+          
+            await SeedFileAsync(store, DataFiles.Orders, new List<Order>(), ct);
+            await SeedFileAsync(store, DataFiles.Payments, new List<PaymentTransaction>(), ct);
+            await SeedFileAsync(store, DataFiles.Emails, new List<EmailMessage>(), ct);
+            await SeedFileAsync(store, DataFiles.EmailRetry, new List<EmailMessage>(), ct);
+        }
+
+        private static async Task SeedFileAsync<T>(JsonFileStore store, string fileName,
+                                                   List<T> items, CancellationToken ct)
+        {
+            await store.WriteAllAsync(fileName, items, ct);
+            Console.WriteLine($"[Seeder] {fileName} -> {items.Count} records.");
+        }
+
+
+
     }
-
-
-
 }
