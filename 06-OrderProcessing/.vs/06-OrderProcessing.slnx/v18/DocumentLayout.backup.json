@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase1\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase1\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 174,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Program.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\Program.cs",
               "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Program.cs",
               "RelativeToolTip": "OrderProcessing\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-19T07:17:54.611Z",
               "IsPinned": true,
@@ -44,7 +48,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SyncCouponRepository.cs",
               "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase1\\SyncCouponRepository.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\Phase1\\SyncCouponRepository.cs",
@@ -57,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Phase1Runner.cs",
               "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase1\\Phase1Runner.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\Phase1\\Phase1Runner.cs",
@@ -66,7 +70,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T10:13:44.651Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase1\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\Phase1\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase1\\ProductRepository.cs",
+              "RelativeToolTip": "OrderProcessing\\Phase1\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T23:16:17.501Z",
               "EditorCaption": ""
             },
             {
@@ -79,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JsonFileStore.cs",
               "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Shared\\Storage\\JsonFileStore.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\Shared\\Storage\\JsonFileStore.cs",
@@ -87,8 +103,7 @@
               "RelativeToolTip": "OrderProcessing\\Shared\\Storage\\JsonFileStore.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAIwHwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T10:37:47.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T10:37:47.019Z"
             }
           ]
         },

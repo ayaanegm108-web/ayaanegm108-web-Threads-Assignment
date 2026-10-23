@@ -32,6 +32,41 @@ namespace OrderProcessing.Phase1
             return product;
         }
 
-        
+        public async Task<bool> ReserveStockAsync(int productId, int qty, CancellationToken ct)
+        {
+            Log.Info("ProductRepository -> Opening connection...");
+            await Task.Delay(200, ct);
+
+            Log.Info("ProductRepository -> Beginning transaction...");
+            await Task.Delay(100, ct);
+
+            Log.Info($"ProductRepository -> Reserving {qty} of Product #{productId}...");
+            await Task.Delay(400, ct);
+
+            bool reserved = false;
+
+            await _store.UpdateAsync<Product>(DataFiles.Products, products =>
+            {
+                var product = products.FirstOrDefault(p => p.Id == productId);
+
+                if (product is null || product.StockQuantity < qty)
+                    return;                      
+
+                product.StockQuantity -= qty;    
+                reserved = true;
+            }, ct);
+
+            Log.Info("ProductRepository -> Committing...");
+            await Task.Delay(200, ct);
+
+            if (reserved)
+                Log.Success($"ProductRepository -> Reserved {qty} of Product #{productId}");
+            else
+                Log.Error($"ProductRepository -> Could not reserve {qty} of Product #{productId} (missing or insufficient stock)");
+
+            return reserved;
+        }
+
+
     }
 }
