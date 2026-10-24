@@ -1,0 +1,9 @@
+INVOICE - Order #1
+Customer: #1
+  Product #1 x 1 @ 1200.00
+  Product #3 x 1 @ 25.00
+SubTotal: 1225.00
+Discount: 245.00
+Shipping: 0.00
+Total:    980.00
+Render checksum: 370485429

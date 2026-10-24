@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Answers.md" />
+  </Folder>
+  <Project Path="InvoiceExport/InvoiceExport.csproj" />
+</Solution>

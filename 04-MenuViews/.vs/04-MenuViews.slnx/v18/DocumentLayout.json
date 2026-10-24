@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\04-MenuViews\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0398AB-7786-470D-A87A-920841790670}|MenuViews\\MenuViews.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\04-menuviews\\menuviews\\menuviewcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0398AB-7786-470D-A87A-920841790670}|MenuViews\\MenuViews.csproj|solutionrelative:menuviews\\menuviewcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0398AB-7786-470D-A87A-920841790670}|MenuViews\\MenuViews.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\04-menuviews\\menuviews\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0398AB-7786-470D-A87A-920841790670}|MenuViews\\MenuViews.csproj|solutionrelative:menuviews\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 166,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuViewCounter.cs",
+              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\04-MenuViews\\MenuViews\\MenuViewCounter.cs",
+              "RelativeDocumentMoniker": "MenuViews\\MenuViewCounter.cs",
+              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\04-MenuViews\\MenuViews\\MenuViewCounter.cs",
+              "RelativeToolTip": "MenuViews\\MenuViewCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T21:07:09.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\04-MenuViews\\MenuViews\\Program.cs",
+              "RelativeDocumentMoniker": "MenuViews\\Program.cs",
+              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\04-MenuViews\\MenuViews\\Program.cs",
+              "RelativeToolTip": "MenuViews\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T21:06:43.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 57,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
