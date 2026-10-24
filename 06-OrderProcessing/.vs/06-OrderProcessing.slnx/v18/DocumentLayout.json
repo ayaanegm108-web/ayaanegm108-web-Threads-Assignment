@@ -3,48 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase3\\orderprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase3\\orderprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase3\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase3\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase3\\phase3runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase3\\phase3runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase1\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase1\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase3\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase3\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase3\\paymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase3\\paymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase2\\pricingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase2\\pricingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase2\\phase2runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase2\\phase2runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase1\\syncproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase1\\syncproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase2\\raceconditiondemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase2\\raceconditiondemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\ayaan\\desktop\\simassignments\\ayaanegm108-web-threads-assignment\\06-orderprocessing\\orderprocessing\\phase2\\orderpricer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7CEF15-B892-1D7C-E449-8BE1E35932A8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\phase2\\orderpricer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 45,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Program.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\Program.cs",
               "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Program.cs",
               "RelativeToolTip": "OrderProcessing\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-19T07:17:54.611Z",
               "IsPinned": true,
@@ -72,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Phase2Runner.cs",
               "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase2\\Phase2Runner.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\Phase2\\Phase2Runner.cs",
@@ -84,25 +56,8 @@
               "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InventoryService.cs",
-              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\InventoryService.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\Phase3\\InventoryService.cs",
-              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\InventoryService.cs",
-              "RelativeToolTip": "OrderProcessing\\Phase3\\InventoryService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwD4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T18:03:54.511Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -110,7 +65,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Phase3Runner.cs",
+              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\Phase3Runner.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\Phase3\\Phase3Runner.cs",
+              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\Phase3Runner.cs",
+              "RelativeToolTip": "OrderProcessing\\Phase3\\Phase3Runner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:18:03.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase1\\OrderRepository.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\Phase1\\OrderRepository.cs",
@@ -118,93 +86,7 @@
               "RelativeToolTip": "OrderProcessing\\Phase1\\OrderRepository.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAswEgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T18:00:19.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderProcessor.cs",
-              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\OrderProcessor.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\Phase3\\OrderProcessor.cs",
-              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\OrderProcessor.cs",
-              "RelativeToolTip": "OrderProcessing\\Phase3\\OrderProcessor.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAD4v9QAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T17:57:12.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\IEmailService.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\Phase3\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\IEmailService.cs",
-              "RelativeToolTip": "OrderProcessing\\Phase3\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T17:38:07.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaymentGateway.cs",
-              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\PaymentGateway.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\Phase3\\PaymentGateway.cs",
-              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase3\\PaymentGateway.cs",
-              "RelativeToolTip": "OrderProcessing\\Phase3\\PaymentGateway.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T17:35:23.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PricingService.cs",
-              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase2\\PricingService.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\Phase2\\PricingService.cs",
-              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase2\\PricingService.cs",
-              "RelativeToolTip": "OrderProcessing\\Phase2\\PricingService.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAswIsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T17:29:18.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SyncProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase1\\SyncProductRepository.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\Phase1\\SyncProductRepository.cs",
-              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase1\\SyncProductRepository.cs",
-              "RelativeToolTip": "OrderProcessing\\Phase1\\SyncProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T16:46:20.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RaceConditionDemo.cs",
-              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase2\\RaceConditionDemo.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\Phase2\\RaceConditionDemo.cs",
-              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase2\\RaceConditionDemo.cs",
-              "RelativeToolTip": "OrderProcessing\\Phase2\\RaceConditionDemo.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T12:18:24.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderPricer.cs",
-              "DocumentMoniker": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase2\\OrderPricer.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\Phase2\\OrderPricer.cs",
-              "ToolTip": "C:\\Users\\ayaan\\Desktop\\SimAssignments\\ayaanegm108-web-Threads-Assignment\\06-OrderProcessing\\OrderProcessing\\Phase2\\OrderPricer.cs",
-              "RelativeToolTip": "OrderProcessing\\Phase2\\OrderPricer.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T12:07:03.099Z"
+              "WhenOpened": "2026-10-24T18:00:19.57Z"
             }
           ]
         },

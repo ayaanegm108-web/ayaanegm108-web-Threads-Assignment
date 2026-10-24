@@ -39,7 +39,6 @@ namespace OrderProcessing.Phase3
 
         public async Task<bool> ProcessOrderAsync(Order order, CancellationToken ct)
         {
-            // What we must undo if something goes wrong later.
             bool stockReserved = false;
             string? transactionId = null;
             var sw = new Stopwatch();
