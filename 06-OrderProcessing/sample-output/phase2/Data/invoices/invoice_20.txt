@@ -1,0 +1,9 @@
+INVOICE - Order #20
+Customer: #10
+  Product #1 x 1 @ 1200.00
+  Product #6 x 1 @ 150.00
+SubTotal: 1350.00
+Discount: 337.50
+Shipping: 0.00
+Total:    1012.50
+Render checksum: 737522936

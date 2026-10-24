@@ -26,9 +26,9 @@ namespace OrderProcessing.Phase1
                 string.Equals(c.Code, code, StringComparison.OrdinalIgnoreCase));
 
             if (coupon is null)
-                Log.Info($"CouponRepository -> Coupon '{code}' not found");
+                Log.Info($"SyncCouponRepository -> Coupon '{code}' not found");
             else
-                Log.Success($"CouponRepository -> Coupon '{coupon.Code}' found ({coupon.DiscountPercent}%)");
+                Log.Success($"SyncCouponRepository -> Coupon '{coupon.Code}' found ({coupon.DiscountPercent}%)");
 
             return coupon;
         }

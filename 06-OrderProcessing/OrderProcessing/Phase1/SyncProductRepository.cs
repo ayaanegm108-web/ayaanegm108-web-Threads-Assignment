@@ -25,9 +25,9 @@ namespace OrderProcessing.Phase1
             var product = products.FirstOrDefault(p => p.Id == id);
 
             if (product is null)
-                Log.Info($"ProductRepository -> Product #{id} not found");
+                Log.Info($"SyncProductRepository -> Product #{id} not found");
             else
-                Log.Success($"ProductRepository -> Product #{id} found ({product.Name}, stock {product.StockQuantity})");
+                Log.Success($"SyncProductRepository -> Product #{id} found ({product.Name}, stock {product.StockQuantity})");
 
             return product;
         }
