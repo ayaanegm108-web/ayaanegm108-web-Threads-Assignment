@@ -77,8 +77,14 @@ namespace OrderProcessing.Phase2
             if (order.CouponCode is not null)
             {
                 var coupon = await _coupons.GetByCodeAsync(order.CouponCode, ct);
-                if (coupon is not null)
-                    percent += coupon.DiscountPercent;
+
+                if (coupon is null)
+                    throw new InvalidCouponException($"Coupon '{order.CouponCode}' does not exist");
+
+                if (coupon.ExpiryDate < DateTime.Today)
+                    throw new InvalidCouponException($"Coupon '{order.CouponCode}' has expired");
+
+                percent += coupon.DiscountPercent;
             }
 
             percent = Math.Min(percent, 30);
@@ -124,6 +130,30 @@ namespace OrderProcessing.Phase2
             order.ShippingCost = Round(shipping);
             Log.Success($"PricingService -> Order #{order.Id}: Shipping = {order.ShippingCost}");
             return order.ShippingCost;
+        }
+
+        public async Task<decimal> CalculateTotalAsync(Order order, CancellationToken ct)
+        {
+            await CalculateSubTotalAsync(order, ct);
+
+            var discountTask = GetDiscountAsync(order, ct);
+            var shippingTask = CalculateShippingCostAsync(order, ct);
+
+            try
+            {
+                await discountTask;
+            }
+            catch
+            {
+                try { await shippingTask; } catch { }
+                throw;
+            }
+
+            await shippingTask;
+
+            order.TotalAmount = Round(order.SubTotal - order.Discount + order.ShippingCost);
+            Log.Success($"PricingService -> Order #{order.Id}: Total = {order.TotalAmount}");
+            return order.TotalAmount;
         }
     }
 }
