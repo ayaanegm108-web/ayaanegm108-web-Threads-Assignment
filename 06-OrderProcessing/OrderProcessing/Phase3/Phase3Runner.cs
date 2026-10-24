@@ -36,7 +36,10 @@ namespace OrderProcessing.Phase3
         public static async Task RunAsync(CancellationToken ct, bool includeComparison = true)
         {
             if (includeComparison)
+            {
                 await SyncVsAsyncComparison.RunAsync(ct);
+                await FireAndForgetDemo.RunAsync(ct);
+            }
 
             var store = new JsonFileStore();
             var processor = BuildProcessor(store);
