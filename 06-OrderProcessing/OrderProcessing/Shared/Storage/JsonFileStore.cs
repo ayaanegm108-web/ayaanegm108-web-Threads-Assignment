@@ -59,6 +59,29 @@ namespace OrderProcessing.Shared.Storage
             }
         }
 
+        public void Update<T>(string fileName, Action<List<T>> mutate)
+        {
+            var gate = LockFor(fileName);
+            gate.Wait();
+            try
+            {
+                string path = PathOf(fileName);
+                var items = File.Exists(path)
+                    ? Deserialize<T>(fileName, File.ReadAllText(path, Encoding.UTF8))
+                    : new List<T>();
+
+                mutate(items);
+
+                string temp = path + ".tmp";
+                Directory.CreateDirectory(DataFiles.DataFolder);
+                File.WriteAllText(temp, JsonSerializer.Serialize(items, Options), Utf8NoBom);
+                File.Move(temp, path, overwrite: true);
+            }
+            finally
+            {
+                gate.Release();
+            }
+        }
         public async Task UpdateAsync<T>(string fileName, Action<List<T>> mutate, CancellationToken ct)
         {
             var gate = LockFor(fileName);
