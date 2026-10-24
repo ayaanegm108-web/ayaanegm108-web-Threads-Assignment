@@ -68,5 +68,57 @@ namespace OrderProcessing.Phase1
         }
 
 
+        public async Task<bool> ReserveStockUnsafeAsync(int productId, int qty, CancellationToken ct)
+        {
+            
+            var products = await _store.ReadAllAsync<Product>(DataFiles.Products, ct);
+            var product = products.FirstOrDefault(p => p.Id == productId);
+
+            if (product is null || product.StockQuantity < qty)
+            {
+                Log.Error($"ProductRepository -> [UNSAFE] Product #{productId}: not enough stock");
+                return false;
+            }
+
+            Log.Info($"ProductRepository -> [UNSAFE] Opening connection...");
+            await Task.Delay(200, ct);
+            Log.Info($"ProductRepository -> [UNSAFE] Beginning transaction...");
+            await Task.Delay(100, ct);
+            Log.Info($"ProductRepository -> [UNSAFE] Updating stock of Product #{productId}...");
+            await Task.Delay(400, ct);
+
+            product.StockQuantity -= qty;
+            await _store.WriteAllAsync(DataFiles.Products, products, ct);
+
+            Log.Success($"ProductRepository -> [UNSAFE] Reserved {qty} of Product #{productId}");
+            return true;
+        }
+
+
+        public async Task ReleaseStockAsync(int productId, int qty, CancellationToken ct)
+        {
+            Log.Info("ProductRepository -> Opening connection...");
+            await Task.Delay(200, ct);
+
+            Log.Info("ProductRepository -> Beginning transaction...");
+            await Task.Delay(100, ct);
+
+            Log.Info($"ProductRepository -> Releasing {qty} of Product #{productId}...");
+            await Task.Delay(400, ct);
+
+            await _store.UpdateAsync<Product>(DataFiles.Products, products =>
+            {
+                var product = products.FirstOrDefault(p => p.Id == productId);
+                if (product is not null)
+                    product.StockQuantity += qty;
+            }, ct);
+
+            Log.Info("ProductRepository -> Committing...");
+            await Task.Delay(200, ct);
+
+            Log.Success($"ProductRepository -> Released {qty} of Product #{productId}");
+        }
+
+
     }
 }
