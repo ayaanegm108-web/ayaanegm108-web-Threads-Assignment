@@ -65,7 +65,7 @@ static class Program
             {
                 case "phase1": await Phase1Runner.RunAsync(cts.Token); break;
                 case "phase2": await Phase2Runner.RunAsync(cts.Token); break;
-                case "phase3": await Phase3Runner.RunAsync(cts.Token); break;
+                case "phase3": await Phase3Runner.RunAsync(cts.Token, cancelAfterMs is null); break;
                 case "phase4": /* await Phase4Runner.RunAsync(cts.Token); */ break;
                 default:
                     Console.WriteLine($"Unknown phase '{name}'.");

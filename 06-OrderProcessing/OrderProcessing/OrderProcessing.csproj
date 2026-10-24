@@ -7,12 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Phase1\SyncOrderRepository.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Phase1\SyncOrderRepository.cs" />
-  </ItemGroup>
-
 </Project>

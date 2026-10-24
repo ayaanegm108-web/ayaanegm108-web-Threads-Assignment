@@ -33,8 +33,11 @@ namespace OrderProcessing.Phase3
                 new EmailService(store, emailFailures));
         }
 
-        public static async Task RunAsync(CancellationToken ct)
+        public static async Task RunAsync(CancellationToken ct, bool includeComparison = true)
         {
+            if (includeComparison)
+                await SyncVsAsyncComparison.RunAsync(ct);
+
             var store = new JsonFileStore();
             var processor = BuildProcessor(store);
             var incoming = new IncomingOrderRepository(store);
