@@ -65,8 +65,7 @@ namespace OrderProcessing.Phase3
             }
             catch (OperationCanceledException) when (failure is null)
             {
-                // The stock was already taken in the file but the caller will never learn
-                // that (it only sees the exception), so undo it here before re-throwing.
+                
                 await _store.UpdateAsync<Product>(DataFiles.Products, products =>
                 {
                     foreach (var item in order.Items)
