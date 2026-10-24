@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OrderProcessing": {
+      "commandName": "Project",
+      "commandLineArgs": "phase1"
+    }
+  }
+}
