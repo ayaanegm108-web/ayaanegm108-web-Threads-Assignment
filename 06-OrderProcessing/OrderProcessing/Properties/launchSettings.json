@@ -2,7 +2,7 @@
   "profiles": {
     "OrderProcessing": {
       "commandName": "Project",
-      "commandLineArgs": "phase2"
+      "commandLineArgs": "phase3"
     }
   }
 }

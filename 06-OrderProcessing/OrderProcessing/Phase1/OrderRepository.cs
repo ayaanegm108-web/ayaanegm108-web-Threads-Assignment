@@ -1,4 +1,5 @@
-﻿using OrderProcessing.Shared.Logging;
+﻿using OrderProcessing.Shared.Exceptions;
+using OrderProcessing.Shared.Logging;
 using OrderProcessing.Shared.Models;
 using OrderProcessing.Shared.Storage;
 using System;
@@ -10,8 +11,14 @@ namespace OrderProcessing.Phase1
     public class OrderRepository
     {
         private readonly JsonFileStore _store;
+        private readonly HashSet<int> _failSaveForOrderIds;
 
-        public OrderRepository(JsonFileStore store) => _store = store;
+       
+        public OrderRepository(JsonFileStore store, IEnumerable<int>? failSaveForOrderIds = null)
+        {
+            _store = store;
+            _failSaveForOrderIds = new HashSet<int>(failSaveForOrderIds ?? Enumerable.Empty<int>());
+        }
 
         public async Task<List<Order>> GetAllAsync(CancellationToken ct)
         {
@@ -39,8 +46,12 @@ namespace OrderProcessing.Phase1
             Log.Success($"OrderRepository -> {filtered.Count} orders with status {status}");
             return filtered;
         }
+
         public async Task SaveAsync(Order order, CancellationToken ct)
         {
+            bool commitWillFail = order.Status == OrderStatus.Completed
+                                  && _failSaveForOrderIds.Contains(order.Id);
+
             Log.Info("OrderRepository -> Opening connection...");
             await Task.Delay(200, ct);
 
@@ -50,18 +61,27 @@ namespace OrderProcessing.Phase1
             Log.Info($"OrderRepository -> Saving Order #{order.Id}...");
             await Task.Delay(400, ct);
 
-            // الكتابة الفعلية: بعد delay الـ Insert/Update وقبل الـ Commit
-            await _store.UpdateAsync<Order>(DataFiles.Orders, orders =>
+            
+            if (!commitWillFail)
             {
-                int index = orders.FindIndex(o => o.Id == order.Id);
-                if (index >= 0)
-                    orders[index] = order;   // نفس الـ Id: استبدل
-                else
-                    orders.Add(order);       // جديد: ضيف
-            }, ct);
+                await _store.UpdateAsync<Order>(DataFiles.Orders, orders =>
+                {
+                    int index = orders.FindIndex(o => o.Id == order.Id);
+                    if (index >= 0)
+                        orders[index] = order;   
+                    else
+                        orders.Add(order);       
+                }, ct);
+            }
 
             Log.Info("OrderRepository -> Committing...");
             await Task.Delay(200, ct);
+
+            if (commitWillFail)
+            {
+                Log.Error($"OrderRepository -> Order #{order.Id}: commit failed, transaction rolled back");
+                throw new DatabaseWriteException("Connection lost during commit");
+            }
 
             Log.Success($"OrderRepository -> Order #{order.Id} saved ({order.Status})");
         }

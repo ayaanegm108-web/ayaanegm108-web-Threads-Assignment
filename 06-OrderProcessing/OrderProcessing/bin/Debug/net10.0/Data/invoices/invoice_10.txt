@@ -1,8 +1,0 @@
-INVOICE - Order #10
-Customer: #10
-  Product #4 x 1 @ 90.00
-SubTotal: 90.00
-Discount: 4.50
-Shipping: 8.30
-Total:    93.80
-Render checksum: 754871618

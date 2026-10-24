@@ -59,7 +59,26 @@ namespace OrderProcessing.Phase3
             }, ct);
 
             Log.Info($"InventoryService -> Order #{order.Id}: {(failure is null ? "committing" : "rolling back")}...");
-            await Task.Delay(200, ct);
+            try
+            {
+                await Task.Delay(200, ct);
+            }
+            catch (OperationCanceledException) when (failure is null)
+            {
+                // The stock was already taken in the file but the caller will never learn
+                // that (it only sees the exception), so undo it here before re-throwing.
+                await _store.UpdateAsync<Product>(DataFiles.Products, products =>
+                {
+                    foreach (var item in order.Items)
+                    {
+                        var product = products.FirstOrDefault(p => p.Id == item.ProductId);
+                        if (product is not null)
+                            product.StockQuantity += item.Quantity;
+                    }
+                }, CancellationToken.None);
+                Log.Error($"InventoryService -> Order #{order.Id}: cancelled during commit, reservation undone");
+                throw;
+            }
 
             if (failure is not null)
             {
