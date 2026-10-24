@@ -1,32 +1,7 @@
 [
   {
-    "id": 1,
-    "customerId": 1,
-    "items": [
-      {
-        "productId": 1,
-        "quantity": 1,
-        "unitPrice": 0
-      },
-      {
-        "productId": 3,
-        "quantity": 1,
-        "unitPrice": 0
-      }
-    ],
-    "couponCode": "SAVE10",
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507133+03:00",
-    "failureReason": null,
-    "transactionId": null
-  },
-  {
-    "id": 2,
-    "customerId": 2,
+    "id": 15,
+    "customerId": 99,
     "items": [
       {
         "productId": 2,
@@ -39,34 +14,9 @@
     "discount": 0,
     "shippingCost": 0,
     "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507781+03:00",
-    "failureReason": null,
-    "transactionId": null
-  },
-  {
-    "id": 3,
-    "customerId": 3,
-    "items": [
-      {
-        "productId": 5,
-        "quantity": 2,
-        "unitPrice": 0
-      },
-      {
-        "productId": 8,
-        "quantity": 1,
-        "unitPrice": 0
-      }
-    ],
-    "couponCode": "WELCOME15",
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507791+03:00",
-    "failureReason": null,
+    "status": "Rejected",
+    "createdAt": "2026-10-24T20:11:57.1570313+03:00",
+    "failureReason": "Customer #99 not found",
     "transactionId": null
   },
   {
@@ -85,62 +35,37 @@
     "shippingCost": 0,
     "totalAmount": 0,
     "status": "Rejected",
-    "createdAt": "2026-10-24T20:02:30.6507802+03:00",
+    "createdAt": "2026-10-24T20:11:57.156999+03:00",
     "failureReason": "Customer is inactive",
     "transactionId": null
   },
   {
-    "id": 5,
-    "customerId": 5,
+    "id": 19,
+    "customerId": 9,
     "items": [
-      {
-        "productId": 7,
-        "quantity": 1,
-        "unitPrice": 0
-      }
-    ],
-    "couponCode": null,
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507807+03:00",
-    "failureReason": null,
-    "transactionId": null
-  },
-  {
-    "id": 6,
-    "customerId": 6,
-    "items": [
-      {
-        "productId": 5,
-        "quantity": 1,
-        "unitPrice": 0
-      }
-    ],
-    "couponCode": "FLASH20",
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507847+03:00",
-    "failureReason": null,
-    "transactionId": null
-  },
-  {
-    "id": 7,
-    "customerId": 7,
-    "items": [
-      {
-        "productId": 6,
-        "quantity": 1,
-        "unitPrice": 0
-      },
       {
         "productId": 8,
         "quantity": 1,
+        "unitPrice": 70.00
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 70.00,
+    "discount": 0.00,
+    "shippingCost": 6.90,
+    "totalAmount": 76.90,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.15706+03:00",
+    "failureReason": null,
+    "transactionId": null
+  },
+  {
+    "id": 11,
+    "customerId": 1,
+    "items": [
+      {
+        "productId": 4,
+        "quantity": 1,
         "unitPrice": 0
       }
     ],
@@ -149,28 +74,48 @@
     "discount": 0,
     "shippingCost": 0,
     "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507896+03:00",
+    "status": "Rejected",
+    "createdAt": "2026-10-24T20:11:57.157021+03:00",
+    "failureReason": "Insufficient stock for \u0027Mechanical Keyboard\u0027",
+    "transactionId": null
+  },
+  {
+    "id": 2,
+    "customerId": 2,
+    "items": [
+      {
+        "productId": 2,
+        "quantity": 1,
+        "unitPrice": 800.00
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 800.00,
+    "discount": 40.00,
+    "shippingCost": 7.30,
+    "totalAmount": 767.30,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1569915+03:00",
     "failureReason": null,
     "transactionId": null
   },
   {
-    "id": 8,
-    "customerId": 8,
+    "id": 13,
+    "customerId": 3,
     "items": [
       {
-        "productId": 1,
-        "quantity": 1,
-        "unitPrice": 0
+        "productId": 6,
+        "quantity": 2,
+        "unitPrice": 150.00
       }
     ],
-    "couponCode": "SAVE10",
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.65079+03:00",
+    "couponCode": null,
+    "subTotal": 300.00,
+    "discount": 0.00,
+    "shippingCost": 9.20,
+    "totalAmount": 309.20,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1570278+03:00",
     "failureReason": null,
     "transactionId": null
   },
@@ -190,8 +135,28 @@
     "shippingCost": 0,
     "totalAmount": 0,
     "status": "Rejected",
-    "createdAt": "2026-10-24T20:02:30.6507904+03:00",
+    "createdAt": "2026-10-24T20:11:57.1570194+03:00",
     "failureReason": "Insufficient stock for \u0027Wireless Mouse\u0027",
+    "transactionId": null
+  },
+  {
+    "id": 5,
+    "customerId": 5,
+    "items": [
+      {
+        "productId": 7,
+        "quantity": 1,
+        "unitPrice": 350.00
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 350.00,
+    "discount": 35.00,
+    "shippingCost": 16.50,
+    "totalAmount": 331.50,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1569998+03:00",
+    "failureReason": null,
     "transactionId": null
   },
   {
@@ -201,37 +166,42 @@
       {
         "productId": 4,
         "quantity": 1,
-        "unitPrice": 0
+        "unitPrice": 90.00
       }
     ],
     "couponCode": null,
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507908+03:00",
+    "subTotal": 90.00,
+    "discount": 4.50,
+    "shippingCost": 8.30,
+    "totalAmount": 93.80,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1570203+03:00",
     "failureReason": null,
     "transactionId": null
   },
   {
-    "id": 11,
-    "customerId": 1,
+    "id": 7,
+    "customerId": 7,
     "items": [
       {
-        "productId": 4,
+        "productId": 6,
         "quantity": 1,
-        "unitPrice": 0
+        "unitPrice": 150.00
+      },
+      {
+        "productId": 8,
+        "quantity": 1,
+        "unitPrice": 70.00
       }
     ],
     "couponCode": null,
-    "subTotal": 0,
-    "discount": 0,
+    "subTotal": 220.00,
+    "discount": 11.00,
     "shippingCost": 0,
     "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507912+03:00",
-    "failureReason": null,
+    "status": "Failed",
+    "createdAt": "2026-10-24T20:11:57.1570024+03:00",
+    "failureReason": "Shipping provider unavailable",
     "transactionId": null
   },
   {
@@ -250,117 +220,27 @@
     "shippingCost": 0,
     "totalAmount": 0,
     "status": "Rejected",
-    "createdAt": "2026-10-24T20:02:30.6507915+03:00",
+    "createdAt": "2026-10-24T20:11:57.1570244+03:00",
     "failureReason": "Coupon \u0027OLD20\u0027 has expired",
     "transactionId": null
   },
   {
-    "id": 13,
-    "customerId": 3,
+    "id": 8,
+    "customerId": 8,
     "items": [
       {
-        "productId": 6,
-        "quantity": 2,
-        "unitPrice": 0
-      }
-    ],
-    "couponCode": null,
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507918+03:00",
-    "failureReason": null,
-    "transactionId": null
-  },
-  {
-    "id": 14,
-    "customerId": 5,
-    "items": [
-      {
-        "productId": 8,
-        "quantity": 2,
-        "unitPrice": 0
-      },
-      {
-        "productId": 5,
+        "productId": 1,
         "quantity": 1,
-        "unitPrice": 0
-      }
-    ],
-    "couponCode": "WELCOME15",
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6507921+03:00",
-    "failureReason": null,
-    "transactionId": null
-  },
-  {
-    "id": 15,
-    "customerId": 99,
-    "items": [
-      {
-        "productId": 2,
-        "quantity": 1,
-        "unitPrice": 0
-      }
-    ],
-    "couponCode": null,
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Rejected",
-    "createdAt": "2026-10-24T20:02:30.6507925+03:00",
-    "failureReason": "Customer #99 not found",
-    "transactionId": null
-  },
-  {
-    "id": 16,
-    "customerId": 6,
-    "items": [
-      {
-        "productId": 7,
-        "quantity": 1,
-        "unitPrice": 0
-      },
-      {
-        "productId": 5,
-        "quantity": 1,
-        "unitPrice": 0
-      }
-    ],
-    "couponCode": null,
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6508209+03:00",
-    "failureReason": null,
-    "transactionId": null
-  },
-  {
-    "id": 17,
-    "customerId": 7,
-    "items": [
-      {
-        "productId": 2,
-        "quantity": 1,
-        "unitPrice": 0
+        "unitPrice": 1200.00
       }
     ],
     "couponCode": "SAVE10",
-    "subTotal": 0,
-    "discount": 0,
+    "subTotal": 1200.00,
+    "discount": 240.00,
     "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6508213+03:00",
+    "totalAmount": 960.00,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1570165+03:00",
     "failureReason": null,
     "transactionId": null
   },
@@ -380,27 +260,122 @@
     "shippingCost": 0,
     "totalAmount": 0,
     "status": "Rejected",
-    "createdAt": "2026-10-24T20:02:30.6508217+03:00",
+    "createdAt": "2026-10-24T20:11:57.1570591+03:00",
     "failureReason": "Coupon \u0027FAKE50\u0027 does not exist",
     "transactionId": null
   },
   {
-    "id": 19,
-    "customerId": 9,
+    "id": 16,
+    "customerId": 6,
     "items": [
       {
-        "productId": 8,
+        "productId": 7,
         "quantity": 1,
-        "unitPrice": 0
+        "unitPrice": 350.00
+      },
+      {
+        "productId": 5,
+        "quantity": 1,
+        "unitPrice": 45.00
       }
     ],
     "couponCode": null,
-    "subTotal": 0,
-    "discount": 0,
-    "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.650822+03:00",
+    "subTotal": 395.00,
+    "discount": 0.00,
+    "shippingCost": 18.40,
+    "totalAmount": 413.40,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1570321+03:00",
+    "failureReason": null,
+    "transactionId": null
+  },
+  {
+    "id": 6,
+    "customerId": 6,
+    "items": [
+      {
+        "productId": 5,
+        "quantity": 1,
+        "unitPrice": 45.00
+      }
+    ],
+    "couponCode": "FLASH20",
+    "subTotal": 45.00,
+    "discount": 9.00,
+    "shippingCost": 6.90,
+    "totalAmount": 42.90,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1570018+03:00",
+    "failureReason": null,
+    "transactionId": null
+  },
+  {
+    "id": 3,
+    "customerId": 3,
+    "items": [
+      {
+        "productId": 5,
+        "quantity": 2,
+        "unitPrice": 45.00
+      },
+      {
+        "productId": 8,
+        "quantity": 1,
+        "unitPrice": 70.00
+      }
+    ],
+    "couponCode": "WELCOME15",
+    "subTotal": 160.00,
+    "discount": 24.00,
+    "shippingCost": 10.70,
+    "totalAmount": 146.70,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1569983+03:00",
+    "failureReason": null,
+    "transactionId": null
+  },
+  {
+    "id": 17,
+    "customerId": 7,
+    "items": [
+      {
+        "productId": 2,
+        "quantity": 1,
+        "unitPrice": 800.00
+      }
+    ],
+    "couponCode": "SAVE10",
+    "subTotal": 800.00,
+    "discount": 120.00,
+    "shippingCost": 7.30,
+    "totalAmount": 687.30,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1570329+03:00",
+    "failureReason": null,
+    "transactionId": null
+  },
+  {
+    "id": 14,
+    "customerId": 5,
+    "items": [
+      {
+        "productId": 8,
+        "quantity": 2,
+        "unitPrice": 70.00
+      },
+      {
+        "productId": 5,
+        "quantity": 1,
+        "unitPrice": 45.00
+      }
+    ],
+    "couponCode": "WELCOME15",
+    "subTotal": 185.00,
+    "discount": 46.25,
+    "shippingCost": 10.70,
+    "totalAmount": 149.45,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1570303+03:00",
     "failureReason": null,
     "transactionId": null
   },
@@ -411,21 +386,46 @@
       {
         "productId": 1,
         "quantity": 1,
-        "unitPrice": 0
+        "unitPrice": 1200.00
       },
       {
         "productId": 6,
         "quantity": 1,
-        "unitPrice": 0
+        "unitPrice": 150.00
       }
     ],
     "couponCode": "FLASH20",
-    "subTotal": 0,
-    "discount": 0,
+    "subTotal": 1350.00,
+    "discount": 337.50,
     "shippingCost": 0,
-    "totalAmount": 0,
-    "status": "Validated",
-    "createdAt": "2026-10-24T20:02:30.6508224+03:00",
+    "totalAmount": 1012.50,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1570608+03:00",
+    "failureReason": null,
+    "transactionId": null
+  },
+  {
+    "id": 1,
+    "customerId": 1,
+    "items": [
+      {
+        "productId": 1,
+        "quantity": 1,
+        "unitPrice": 1200.00
+      },
+      {
+        "productId": 3,
+        "quantity": 1,
+        "unitPrice": 25.00
+      }
+    ],
+    "couponCode": "SAVE10",
+    "subTotal": 1225.00,
+    "discount": 245.00,
+    "shippingCost": 0,
+    "totalAmount": 980.00,
+    "status": "Completed",
+    "createdAt": "2026-10-24T20:11:57.1569508+03:00",
     "failureReason": null,
     "transactionId": null
   }

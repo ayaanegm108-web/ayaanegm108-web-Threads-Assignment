@@ -113,6 +113,7 @@ namespace OrderProcessing.Phase2
             Console.WriteLine($"Total revenue: {report.TotalRevenue}");
             Console.WriteLine($"Average order value: {report.AverageOrderValue}");
             Console.WriteLine($"Top selling product: {report.TopSellingProduct} ({report.TopSellingQuantity} units)");
+            BlockingDemo.Run();
         }
     }
 }
